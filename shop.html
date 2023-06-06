@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Your Description Goes Here">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/7c73c501f3.js" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!--Begin Header-->
+    <div id="header-bkgd">
+        <header class="container">
+            <div class="row">
+
+                <section class="col-md-2">
+                    <div id="site-header">
+                        <a href="index.html">
+                            <img class="img-fluid" src="images/logo.png" width="544" height="500" alt="Website Logo">
+                        </a>
+                    </div>
+                </section>
+
+                <section class="col-md-8">
+                    <div id="site-main-nav-container">
+                        <nav>
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="reservation.php">Reservation</a></li>
+                                <li><a class="active_link" href="shop.html">Shop</a></li>
+                                <li><a href="contact.php">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+
+                <section class="col-md-2">
+                    <div id="site-main-nav-container-icon">
+                        <nav>
+                            <ul>
+                                <li><a href="profile.html"><i class="fa-solid fa-user" style="color: #4f4f4f;"></i></a>
+                                </li>
+                                <li><a href="profile.html"><i class="fa-solid fa-cart-shopping"
+                                            style="color: #4f4f4f;"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+
+            </div>
+        </header>
+    </div>
+    <!--End Header-->
+
+    <!--Begin Mobile Header-->
+    <div id="mobile-header-bkgd">
+        <header class="container">
+            <div class="row">
+
+                <section class="col-3">
+                    <p id="sj_burger" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                        <i class="fa-solid fa-bars" style="color: #4f4f4f;"></i>
+                    </p>
+                    <!-- Offcanvas Sidebar -->
+                    <div class="offcanvas offcanvas-start" id="demo">
+                        <div class="offcanvas-header">
+                            <h1 class="offcanvas-title">Spark Joy</h1>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <a href="about.html">About</a><br>
+                            <a href="blog.html">Blog</a><br>
+                            <a href="reservation.php">Reservation</a><br>
+                            <a href="shop.html">Shop</a><br>
+                            <a href="contact.php">Contact</a>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col-6">
+                    <div id="mobile-site-header">
+                        <a href="index.html">
+                            <img class="img-fluid" src="images/logo.png" width="544" height="500" alt="Website Logo">
+                        </a>
+                    </div>
+                </section>
+
+
+                <section class="col-3">
+                    <div id="mobile-site-main-nav-container-icon">
+                        <nav>
+                            <ul>
+                                <li><a href="profile.html"><i class="fa-solid fa-user" style="color: #4f4f4f;"></i></a>
+                                </li>
+                                <li><a href="profile.html"><i class="fa-solid fa-cart-shopping"
+                                            style="color: #4f4f4f;"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+
+            </div>
+        </header>
+    </div>
+
+    <!--End Mobile Header-->
+
+
+    <!--Start Content-->
+    <div class="page4-div-margin">
+        <div class="container">
+            <div class="row">
+                <section class="col-md-12">
+                    <div class="commercial">
+                        <img class="img-fluid" src="images/commercial.jpg" width="2016" height="1275" alt="speed boat">
+                    </div>
+                </section>
+            </div>
+
+            <!--Start filter-->
+            <div class="row">
+                <section class="col-md-12">
+                    <div class="dropdown alignDropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                            Category
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">container</a></li>
+                            <li><a class="dropdown-item" href="#">tools</a></li>
+                        </ul>
+
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                            Color
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">White</a></li>
+                            <li><a class="dropdown-item" href="#">Black</a></li>
+                            <li><a class="dropdown-item" href="#">Colors</a></li>
+                        </ul>
+
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                            Price
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Under $50</a></li>
+                            <li><a class="dropdown-item" href="#">Over $50</a></li>
+                        </ul>
+
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                            Size
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Small</a></li>
+                            <li><a class="dropdown-item" href="#">Medium</a></li>
+                            <li><a class="dropdown-item" href="#">Large</a></li>
+                        </ul>
+
+                    </div>
+
+                </section>
+            </div>
+            <!--End filter-->
+
+            <!--Start Items-->
+            <div class="row">
+                <section class="col-md-4 col-sm-6">
+                    <div class="items">
+                        <img class="img-fluid d-block mx-auto" src="images/selling items/items4.jpg" width="400"
+                            height="480" alt="items5">
+
+                        <div class="sellItem">
+                            <p>Meditation Singing Bowl</p>
+                            <div class="item-star">
+                                <link rel="stylesheet"
+                                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="amountReviews">18</p>
+                            <p class="itemPrice">$15.99</p>
+                            <div class="clear-me"></div>
+
+                        </div>
+                        <div class="AddtoCart">
+                            <button class="button-39" role="button">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="col-md-4 col-sm-6">
+                    <div class="items">
+                        <img class="img-fluid d-block mx-auto" src="images/selling items/items5.jpg" width="400"
+                            height="480" alt="items6">
+
+                        <div class="sellItem">
+                            <p>Hinoki Wood Diffuser</p>
+                            <div class="item-star">
+                                <link rel="stylesheet"
+                                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="amountReviews">124</p>
+                            <p class="itemPrice">$12.99</p>
+                            <div class="clear-me"></div>
+
+                        </div>
+                        <div class="AddtoCart">
+                            <button class="button-39" role="button">Add to Cart</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col-md-4 col-sm-6">
+                    <div class="items">
+
+                        <img class="img-fluid d-block mx-auto" src="images/selling items/items6.jpg" width="400"
+                            height="480" alt="items5">
+
+                        <div class="sellItem">
+                            <p>Bamboo and Vegan Leather
+                                Bins</p>
+                            <div class="item-star">
+                                <link rel="stylesheet"
+                                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="amountReviews">259</p>
+                            <p class="itemPrice">$25.00</p>
+                            <div class="clear-me"></div>
+
+                        </div>
+                        <div class="AddtoCart">
+                            <button class="button-39" role="button">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="col-md-4 col-sm-6">
+                    <div class="items">
+                        <img class="img-fluid d-block mx-auto" src="images/selling items/items1.jpg" width="400"
+                            height="480" alt="items5">
+
+                        <div class="sellItem">
+                            <p>Lid for Dust Box</p>
+                            <div class="item-star">
+                                <link rel="stylesheet"
+                                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="amountReviews">180</p>
+                            <p class="itemPrice">$12.99</p>
+                            <div class="clear-me"></div>
+
+                        </div>
+                        <div class="AddtoCart">
+                            <button class="button-39" role="button">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="col-md-4 col-sm-6">
+                    <div class="items">
+                        <img class="img-fluid d-block mx-auto" src="images/selling items/items2.jpg" width="400"
+                            height="480" alt="items6">
+
+                        <div class="sellItem">
+                            <p>Cotton Meditation
+                                Cushion</p>
+                            <div class="item-star">
+                                <link rel="stylesheet"
+                                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="amountReviews">162</p>
+                            <p class="itemPrice">$10.65</p>
+                            <div class="clear-me"></div>
+
+                        </div>
+                        <div class="AddtoCart">
+                            <button class="button-39" role="button">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="col-md-4 col-sm-6">
+                    <div class="items">
+                        <img class="img-fluid d-block mx-auto" src="images/selling items/items3.jpg" width="400"
+                            height="480" alt="items5">
+
+                        <div class="sellItem">
+                            <p>Linen Memento Folio</p>
+                            <div class="item-star">
+                                <link rel="stylesheet"
+                                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="amountReviews">12</p>
+                            <p class="itemPrice">$15.00</p>
+                            <div class="clear-me"></div>
+
+                        </div>
+                        <div class="AddtoCart">
+                            <button class="button-39" role="button">Add to Cart</button>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+            <!--End Items-->
+
+            <div class="viewMore">
+                <a class="dropdown-item" href="#">View More</a>
+            </div>
+
+        </div>
+    </div>
+    <!--End Content-->
+
+
+    <!--Begin Footer Content-->
+    <div id="footer-bkgd">
+        <footer class="container">
+
+            <!--Begin Footer credits-->
+            <div class="row">
+                <section class="col-3">
+                    <div id="footer">
+                        <div class="footer-left">
+                            <a href="index.html">
+                                <img class="img-fluid" src="images/logo.png" width="544" height="500"
+                                    alt="Website Logo">
+                            </a>
+                        </div>
+                        <div class="footer-left">
+                            <p>&copy; 2023 YuEnLin</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col-9">
+                    <div id="footer-right">
+                        <p id="sj_social">
+
+                            <a href="#">
+                                <i class="fa-brands fa-square-facebook" style="color: #4f4f4f;">
+                                </i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fa-brands fa-instagram" style="color: #4f4f4f;">
+                                </i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fa-brands fa-square-twitter" style="color: #4f4f4f;">
+                                </i>
+                            </a>
+
+                        </p>
+
+                        <p id="sj_terms"><a href="https://www.tidyupangels.com/terms-of-use/" target="_blank">Terms of
+                                service</a>
+                            <a href="contact.php">contact</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+            <!--End Footer credits-->
+
+        </footer>
+    </div>
+    <!--End Footer Content-->
+
+    <!-- JavaScript -->
+    <!-- Popper.js, then Bootstrap JS, then Your Own Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
